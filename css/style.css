@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+*{box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif;}
+html,body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+.font_paci{font-family: 'Pacifico', cursive;}
+
+
+/* 실습1 - 2단 메뉴 구성 */.
+#ex_01{
+    padding: 0 10px; 
+    margin: 0 auto; 
+    font-size: 0;
+    margin: 0 auto;
+}
+#ex_01 .top{ 
+    height: 30px; 
+    background: #242424;
+}
+#ex_01 .top .wrap{
+    width: 1160px;
+    color: #fff;
+    font-size: 14px;
+}
+#ex_01 .top .wrap .left_info{float: left;}
+#ex_01 .top .wrap .left_info ul{}
+#ex_01 .top .wrap .left_info ul li{}
+
+#ex_01 .top .wrap .right_info{float: right;}
+#ex_01 .top .wrap .right_info ul{}
+#ex_01 .top .wrap .right_info ul li{}
+#ex_01 .top .wrap .right_info ul li a{}
+
+#ex_01 .main_bar{height: 66px;}
+#ex_01 .main_bar .dark{
+    background-image: url(../img/1.jpg);
+    background: rgba(0,0,0,0.5);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+#ex_01 .main_bar .dark .wrap{}
+#ex_01 .main_bar .dark .wrap .logo{width: 180px;}
+#ex_01 .main_bar .dark .wrap .logo a{float: right;}
+#ex_01 .main_bar .dark .wrap .menu{}
+#ex_01 .main_bar .dark .wrap .menu ul{}
+#ex_01 .main_bar .dark .wrap .menu ul li{}
+#ex_01 .main_bar .dark .wrap .menu ul li a{}
+
